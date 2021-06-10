@@ -35,7 +35,7 @@ public class TaskService {
               t.name = task.name;
               t.description = task.description;
               t.lastModificationDate = LocalDate.now();
-              taskRepository.updateTask(task);
+              taskRepository.updateTask(t);
             });
   }
 
